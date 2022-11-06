@@ -727,6 +727,7 @@ input, select, textarea {
 
 		}
 
+
 /* List */
 
 	ol {
@@ -1169,6 +1170,7 @@ input, select, textarea {
 
 		body.is-preload #bg:before {
     background-image: url("../../images/flux.gif");
+background-size: 30rem auto;
 
 		opacity: 1;
     z-index:4;
