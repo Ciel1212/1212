@@ -1161,15 +1161,15 @@ input, select, textarea {
 			-webkit-transform: scale(1.0825);
 			-ms-transform: scale(1.0825);
 			transform: scale(1.0825);
-			-moz-filter: blur(0.2rem);
-			-webkit-filter: blur(0.2rem);
-			-ms-filter: blur(0.2rem);
-			filter: blur(0.2rem);
+			-moz-filter: blur(0rem);
+			-webkit-filter: blur(0rem);
+			-ms-filter: blur(0rem);
+			filter: blur(0rem);
 		}
 
 		body.is-preload #bg:before {
     background-image: url("../../images/flux.gif");
-    background-color: black;
+
 		opacity: 1;
     z-index:4;
 
@@ -1405,18 +1405,18 @@ input, select, textarea {
 			-webkit-transform: scale(0.95);
 			-ms-transform: scale(0.95);
 			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
+			-moz-filter: blur(0rem);
+			-webkit-filter: blur(0rem);
+			-ms-filter: blur(0rem);
+			filter: blur(0rem);
 			opacity: 0;
 		}
 
 		body.is-preload #header {
-			-moz-filter: blur(0.125rem);
-			-webkit-filter: blur(0.125rem);
-			-ms-filter: blur(0.125rem);
-			filter: blur(0.125rem);
+			-moz-filter: blur(0rem);
+			-webkit-filter: blur(0rem);
+			-ms-filter: blur(0rem);
+			filter: blur(0rem);
 		}
 
 			body.is-preload #header > * {
@@ -1655,10 +1655,10 @@ input, select, textarea {
 			-webkit-transform: scale(0.95);
 			-ms-transform: scale(0.95);
 			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
+			-moz-filter: blur(0rem);
+			-webkit-filter: blur(0rem);
+			-ms-filter: blur(0rem);
+			filter: blur(0rem);
 			opacity: 0;
 		}
 
