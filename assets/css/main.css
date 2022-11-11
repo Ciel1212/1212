@@ -186,15 +186,19 @@ input, select, textarea {
 
 
 	}
-
+	#nextpost {
+		display: inline-block;
+	}
 	#nextPoem {
 		display: none;
 	}
-	#nextPoem a{
+	#nextPoem,#nextpost a{
 		color:#D2E6F9;
 		padding: 1rem;
 		text-shadow:  2px 2px #1761AF;
 	}
+
+
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
@@ -233,7 +237,8 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.3rem;
+		letter-spacing: 0.2rem;
 	}
 
 	h4 {
