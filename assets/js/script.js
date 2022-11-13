@@ -2,12 +2,12 @@ var i = 0;
 var txt =  document.getElementById("poem").innerHTML;
 document.getElementById("poem").innerHTML="";
 var speed = 200; /* The speed/duration of the effect in milliseconds */
-
+var type= true;
 function typeWriter() {
-
+if(type){
   if (i < txt.length) {
     switch (txt.charAt(i)) {
-      case "*":
+      case "%":
       document.getElementById("poem").innerHTML += " <br>";
       break;
 
@@ -15,7 +15,7 @@ function typeWriter() {
       document.getElementById("poem").innerHTML += "<br> <br>";
       break;
 
-      case "%":
+      case "*":
       document.getElementById("nextPoem").style.display = "block";
       break;
 
@@ -29,5 +29,12 @@ function typeWriter() {
 
     setTimeout(typeWriter, speed);
 }
+}
+}
 
+function skip() {
+  speed=0;
+  type=false;
+  document.getElementById("poem").innerHTML=txt;
+  document.getElementById("nextPoem").style.display = "block";
 }
