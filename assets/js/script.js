@@ -33,7 +33,6 @@ if(type){
 }
 
 function skip() {
-  speed=0;
   type=false;
   document.getElementById("poem").innerHTML=txt;
   document.getElementById("nextPoem").style.display = "block";
