@@ -415,7 +415,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				margin: 0.8rem 0;
+				margin: 0.8rem 0.3rem;
 			}
 
 		}
